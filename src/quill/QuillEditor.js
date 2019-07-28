@@ -11,7 +11,7 @@ class QuillEditor extends Component {
     };
 
     QuillEditor.modules = {
-      toolbar: [[{ header: "1" }, { header: "2" }], ["image", "video"]]
+      toolbar: [[{ header: "1" }, { header: "2" }], ['bold', 'italic', 'link'], ['image']]
     };
 
     this.handleChange = this.handleChange.bind(this);

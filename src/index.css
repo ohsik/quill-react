@@ -17,6 +17,10 @@ code {
   margin: 1vh auto;
 }
 
-.ql-container.ql-snow{
+.ql-container.ql-snow,
+.ql-toolbar.ql-snow{
   border: none !important;
+}
+.ql-container{
+  font-size: 16px !important;
 }
