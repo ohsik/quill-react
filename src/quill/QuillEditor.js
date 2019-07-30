@@ -42,6 +42,7 @@ class QuillEditor extends Component {
 
   render() {
     return (
+      <div className="quill-wrapper">
         <ReactQuill
           className="quillEditor"
           value={this.state.text}
@@ -51,6 +52,7 @@ class QuillEditor extends Component {
           onChange={this.handleChange}
           ref={(quilltext) => this.quillTextarea = quilltext}
         />
+      </div>
     );
   }
 }

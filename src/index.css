@@ -24,3 +24,13 @@ code {
 .ql-container{
   font-size: 16px !important;
 }
+
+.quill-wrapper{
+  border: 1px solid red;
+}
+.ql-toolbar--stick{
+  background: rgba(255, 255, 255, 1);
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
